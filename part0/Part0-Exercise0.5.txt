@@ -1,0 +1,12 @@
+title Part0-Exercise0.5
+
+Browser->Server: HTTP_GET: https://studies.cs.helsinki.fi/exampleapp/spa
+Server-->Browser: HTML Document spa.html
+Browser->Server: HTTP_GET: https://studies.cs.helsinki.fi/exampleapp/main.css
+Server-->Browser: main.css
+Browser->Server: HTTP_GET: https://studies.cs.helsinki.fi/exampleapp/spa.js
+Server-->Browser: spa.js
+Browser->Server: HTTP_GET: https://studies.cs.helsinki.fi/exampleapp/data.json
+Server-->Browser: data.json [{"content":"...","date":"..."}]
+Browser->Server: HTTP_GET: https://studies.cs.helsinki.fi/exampleapp/favicon.ico
+Server-->Browser: HTML Document (Course stats)

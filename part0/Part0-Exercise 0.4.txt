@@ -1,0 +1,14 @@
+title Part 0 - Exercise 0.4
+
+
+
+Browser->Server: HTTP_GET: https://studies.cs.helsinki.fi/exampleapp/new_note
+Server-->Browser: HTTP_Status: 302 Redirect: https://studies.cs.helsinki.fi/exampleapp/notes
+Browser->Server: HTTP_GET https://studies.cs.helsinki.fi/exampleapp/notes
+Server-->Browser: notes.html
+Browser->Server: HTTP_GET: https://studies.cs.helsinki.fi/exampleapp/main.css
+Server-->Browser: main.css
+Browser->Server: HTTP_GET: https://studies.cs.helsinki.fi/exampleapp/main.js
+Server-->Browser: main.js
+Browser->Server: HTTP_GET: https://studies.cs.helsinki.fi/exampleapp/data.json
+Server-->Browser: data.json [{"content":"exitTest","date":"2022-03-25T13:32:17.122Z"}]
